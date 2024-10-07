@@ -38,3 +38,28 @@ After creating the tables, I wrote SQL code to retrieve data from each of the ta
 
 ## Conclusion
 This DDL checkpoint exercise successfully demonstrates the creation of tables and relationships using foreign keys, ensuring referential integrity in a relational database structure.
+
+**##DML CHECKPOINT**
+
+# Fleet Management SQL Project
+
+## Objective
+The objective of this project is to implement SQL Data Manipulation Language (DML) queries to manage records within the database tables defined in the Fleet Management schema. The SQL code provided covers the creation of the required tables, insertion of sample data, and updating, deleting, and querying of records.
+
+## Prerequisites
+Before running the SQL code, ensure you have the following:
+
+1. **SQL Database Environment:** A running instance of an SQL database like MySQL, PostgreSQL, or SQL Server.
+2. **SQL Client Tool:** An SQL client like MySQL Workbench, pgAdmin, or any terminal-based SQL command-line tool.
+3. **Access Rights:** Administrator or required privileges to create tables and insert data into the database.
+
+## Steps to Run the SQL Code
+
+1. **Open SQL Client:**
+   Launch your preferred SQL client (such as MySQL Workbench or pgAdmin), connect to your database, and open a new SQL query window.
+
+2. **Create the Database (Optional):**
+   If you don't have a database created for the project, you can create one by running:
+   ```sql
+   CREATE DATABASE FleetManagement;
+   USE FleetManagement;
